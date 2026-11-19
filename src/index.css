@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 16px 24px;
+  background: #ffffff;
+  color: #18212c;
+}
+
+.app section {
+  margin-bottom: 24px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-width: 320px;
+  margin-bottom: 12px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #8886;
+  padding: 6px 8px;
+  text-align: left;
+}
+
+td input[type='number'] {
+  width: 80px;
+}
+
+.error {
+  color: #c62828;
+  font-size: 13px;
+}
